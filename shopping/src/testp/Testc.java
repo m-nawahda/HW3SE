@@ -3,15 +3,14 @@ package testp;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import shopping.Book;
 import shopping.Cshopping;
 
 class Testc {
 	Cshopping c;
-@BeforeEach public void initiate() {
+@Before public void initiate() {
 	c = new Cshopping();
 }
 	@Test
